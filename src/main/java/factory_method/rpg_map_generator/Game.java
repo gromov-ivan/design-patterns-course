@@ -1,4 +1,4 @@
-package main.java.factory_method.rpg_map_generator.tile;
+package main.java.factory_method.rpg_map_generator;
 
 import main.java.factory_method.rpg_map_generator.map.CityMap;
 import main.java.factory_method.rpg_map_generator.map.Map;
