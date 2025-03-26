@@ -1,4 +1,9 @@
-package main.java.factory_method.rpg_map_generator;
+package main.java.factory_method.rpg_map_generator.map;
+
+import main.java.factory_method.rpg_map_generator.tile.BuildingTile;
+import main.java.factory_method.rpg_map_generator.tile.ForestTile;
+import main.java.factory_method.rpg_map_generator.tile.RoadTile;
+import main.java.factory_method.rpg_map_generator.tile.Tile;
 
 import java.util.Random;
 

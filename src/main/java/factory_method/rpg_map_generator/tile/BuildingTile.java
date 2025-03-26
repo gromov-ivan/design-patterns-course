@@ -1,14 +1,14 @@
-package main.java.factory_method.rpg_map_generator;
+package main.java.factory_method.rpg_map_generator.tile;
 
-public class WaterTile implements Tile {
+public class BuildingTile implements Tile {
     @Override
     public char getCharacter() {
-        return 'W';
+        return 'B';
     }
 
     @Override
     public String getType() {
-        return "water";
+        return "building";
     }
 
     @Override

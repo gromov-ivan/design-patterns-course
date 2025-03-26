@@ -1,4 +1,6 @@
-package main.java.factory_method.rpg_map_generator;
+package main.java.factory_method.rpg_map_generator.map;
+
+import main.java.factory_method.rpg_map_generator.tile.Tile;
 
 public abstract class Map {
     protected Tile[][] tiles;
@@ -19,8 +21,6 @@ public abstract class Map {
         }
     }
 
-    protected abstract Tile createTile();
-
     public void display() {
         for (int row = 0; row < height; row++) {
             for (int col = 0; col < width; col++) {
@@ -29,5 +29,6 @@ public abstract class Map {
             System.out.println();
         }
     }
-}
 
+    protected abstract Tile createTile();
+}

@@ -1,4 +1,8 @@
-package main.java.factory_method.rpg_map_generator;
+package main.java.factory_method.rpg_map_generator.tile;
+
+import main.java.factory_method.rpg_map_generator.map.CityMap;
+import main.java.factory_method.rpg_map_generator.map.Map;
+import main.java.factory_method.rpg_map_generator.map.WildernessMap;
 
 import java.util.Scanner;
 

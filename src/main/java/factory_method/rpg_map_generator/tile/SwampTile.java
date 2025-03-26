@@ -1,4 +1,4 @@
-package main.java.factory_method.rpg_map_generator;
+package main.java.factory_method.rpg_map_generator.tile;
 
 public class SwampTile implements Tile {
     @Override
