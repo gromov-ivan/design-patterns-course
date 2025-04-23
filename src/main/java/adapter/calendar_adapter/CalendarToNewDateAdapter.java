@@ -1,4 +1,4 @@
-package main.java.adapter;
+package main.java.adapter.calendar_adapter;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;

@@ -1,4 +1,4 @@
-package main.java.adapter;
+package main.java.adapter.calendar_adapter;
 
 public class Main {
     public static void main(String[] args) {
